@@ -1,6 +1,7 @@
 # [Swift] UITextView Placeholder 구현
 
 > UITextField 는 placeholder 가 있는데 UITextView는 없어..
+> 
 > 어떡하지?🥺
 
 - `UITextView` 의 `delegate` 설정
@@ -16,12 +17,13 @@ textView.delegate = self
 
 ```swift
 extension ViewController: UITextViewDelegate {
-	func textViewDidEndEditing(_ textView: UITextView) {
+  func textViewDidEndEditing(_ textView: UITextView) {
     if textView.text.isEmpty {
       textView.text = "내용을 입력해주세요"
       textView.textColor = .lightGray
     }
   }
+
   func textViewDidBeginEditing(_ textView: UITextView) {
     if textView.textColor == .lightGray {
       textView.text = nil
@@ -31,7 +33,7 @@ extension ViewController: UITextViewDelegate {
 }
 ```
 
-- 이렇게만 하면 처음 화면 들어왔을 때 placeholder 가 안보임
+- 이렇게만 하면 처음 화면 들어왔을 때 placeholder 가 안보임 🫠
   - 처음 textView 만들어질 때 초기화 필요
 
 ```swift
