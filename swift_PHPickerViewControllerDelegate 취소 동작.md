@@ -7,11 +7,10 @@
 
 ```swift
 func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
-  if results.isEmpty {
-  	picker.dismiss(animated: true)
-  	return
-	}
+    if results.isEmpty {
+        picker.dismiss(animated: true)
+        return
+    }
   ...
 }
 ```
-
