@@ -3,9 +3,11 @@
 
 ## 💐 Git
 
+- [기존 gitignore 수정 후 적용](./git_기존%20gitignore%20수정%20후%20적용.md)
 - [브랜치 이름 변경](./git_브랜치%20이름%20변경.md)
 - [브랜치 체크아웃](./git_브랜치%20체크아웃.md)
 - [브랜치 Merge](./git_브랜치%20Merge.md)
+- [커밋 되돌리기](./git_커밋%20되돌리기.md)
 
 ## 🍕 iOS
 
@@ -15,6 +17,7 @@
 ## 🧼 Swift
 
 - [PHPickerViewControllerDelegate 취소 동작](./swift_PHPickerViewControllerDelegate%20취소%20동작.md)
+- [some vs any](./swift_some%20vs%20any.md)
 - [UIAlertController 알림창 구현](./swift_UIAlertController%20알림창%20구현.md)
 - [UIButton configuration으로 버튼 내부 패딩 설정(contentEdgeInsets deprecated)](./swift_UIButton%20configuration으로%20버튼%20내부%20패딩%20설정(contentEdgeInsets%20deprecated).md)
 - [UITextField left padding 추가](./swift_UITextField%20left%20padding%20추가.md)
